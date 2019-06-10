@@ -39,13 +39,14 @@ body {
     width: 90%;
     padding: .75em 1em;
     box-sizing: border-box;
-    background-color: #002b36;
-    border: solid 0px #002b36;
+    background-color: #71F79F;
+    border: solid 0px #71F79F;
     font-family: "Roboto Mono";
     font-size: 4rem;
     color: #f2f2f2;
     outline: none;
     border-radius: 3px;
+
     margin-bottom: 1em;
     text-align: center;
 }
