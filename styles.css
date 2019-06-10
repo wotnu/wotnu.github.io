@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-    background-color: #073642;
+    background-color: #71F79F;
     margin: 0px;
 }
 
@@ -90,7 +90,7 @@ body {
 
 .bookmark-set{
     padding: 1em;
-    background-color: #002b36;
+    background-color: #71F79F;
     border-radius: 3px;
     font-family: "Roboto Mono";
     font-size: .85rem;
