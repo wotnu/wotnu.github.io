@@ -15,17 +15,18 @@
     </div>
     <div class="container">
         <div id="clock"></div>
-<!--Bookmarks-->
+<!--Daily-->
         <div class="bookmark-container">
             <div class="bookmark-set">
                 <div class="bookmark-title">Daily</div>
                 <div class="bookmark-inner-container">
                     <a class="bookmark" href="https://mail.google.com/" target="_blank">Gmail</a>
+                    <a class="bookmark" href="https://mail.protonmail.com/" 
+target="_blank">Protonmail</a>
                     <a class="bookmark" href="https://drive.google.com/" target="_blank">Drive</a>
-		    <a class="bookmark" href="https://canvas.instructure.com/" target="_blank">Canvas</a>
+		    <a class="bookmark" href="https://classroom.google.com/"
+target="_blank">Google Classroom</a>
 		    <a class="bookmark" href="https://discordapp.com/activity" target="_blank">Discord</a>
-			<a class="bookmark" href="https://i.reddit.com" target="_blank">Reddit</a>
-
                 </div>
             </div>
 <!--Media-->
@@ -33,14 +34,21 @@
                 <div class="bookmark-title">Media</div>
                 <div class="bookmark-inner-container">
                     <a class="bookmark" href="https://youtube.com" target="_blank">Youtube</a>
+                    <a class="bookmark" href="https://netflix.com" target="_blank">Netflix</a>
+		    <a class="bookmark" href="https://twist.moe/"
+target="_blank">Twist Anime</a>
                     <a class="bookmark" href="https://open.spotify.com" target="_blank">Spotify</a>
                 </div>
             </div>
-<!--Other (no longer reddit as i am not a freak)-->
+<!--Reddit-->
             <div class="bookmark-set">
-            <div class="bookmark-title">Other</div>
+            <div class="bookmark-title">Reddit</div>
                 <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://weather.com/weather/today/l/2467f1f91ac750874764150cc5ad4dcc99b032cd25d43256c3a2cae3d59e6f4d" target="_blank">Weather</a>
+                    <a class="bookmark" href="https://reddit.com/r/teenagers" target="_blank">/r/teenagers</a>
+		    <a class="bookmark" href="https://reddit.com/r/me_irl" target="_blank">/r/me_irl</a>
+                    <a class="bookmark" href="https://reddit.com/r/unixporn" target="_blank">/r/unixporn</a>
+                    <a class="bookmark" href="https://reddit.com/r/linux" target="_blank">/r/linux</a>
+                    <a class="bookmark" href="https://reddit.com/r/linuxmasterrace" target="_blank">/r/linuxmasterrace</a>
                 </div>
             </div>
                 </div>
@@ -57,7 +65,7 @@
             }
         }
         // Get current time and format
-        function getTime() {
+        function getTime() {
             let date = new Date(),
                 min = date.getMinutes(),
                 sec = date.getSeconds(),
